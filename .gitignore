@@ -1,0 +1,14 @@
+*.jpg
+*.png
+*.gif
+*.mp4
+
+# files
+.DS_Store
+robots.txt
+.htaccess
+
+# directories
+tiles/
+media/
+images/
