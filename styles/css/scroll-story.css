@@ -1,6 +1,8 @@
 
 header.story-title {
   background-color: rgba(53, 54, 38, 0.75);
+  /* added margin 25 jan 2022 to make way for position fixed MainNav */
+  margin-top: 1.25em;
   position: relative;
   text-align: center;
   z-index: 10;
@@ -132,6 +134,38 @@ header.story-title {
   max-width: 100%;
   height: auto;
   margin-bottom: 1.6em;
+}
+
+nav.main-menu {
+  background-color: #353526;
+  height: 1.25em;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+nav.main-menu ul {
+  margin:  -.25em 0 0 0;
+}
+
+nav.main-menu li {
+  border-right: thin solid #e4e0c7;
+  display: inline;
+  font-size: 0.75em;
+  font-weight: 400;
+  letter-spacing: .15em;
+  padding: 0 2em;
+  text-transform: uppercase;
+}
+
+nav.main-menu li.last-menu-item {
+  border-right: none;
+}
+
+nav.main-menu li.selected a {
+  color: #B25900;
 }
 
 /*# sourceMappingURL=scroll-story.css.map */
