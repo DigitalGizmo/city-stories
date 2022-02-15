@@ -1,16 +1,33 @@
 
 header.story-title {
   background-color: rgba(53, 54, 38, 0.75);
+  /* added margin 25 jan 2022 to make way for position fixed MainNav */
+  margin-top: 1.25em;
   position: relative;
   text-align: center;
   z-index: 10;
 }
 
+.story-title h1 {
+  font-size: 2.5em;
+  margin: 0;
+  text-shadow: 1px 1px #353526;
+}
+
 .story-title h3 {
-    color: #B25900;
-    letter-spacing: .075em;
-    text-shadow: 1px 1px #353526;
-    text-transform: uppercase;
+  color: #B25900;
+  letter-spacing: .075em;
+  margin: 0;
+  text-shadow: 1px 1px #353526;
+  text-transform: uppercase;
+}
+
+.chapter-title {
+  background-color: #B25900;
+  padding: 0.015em;
+  position: relative;
+  text-align: center;
+  z-index: 9;
 }
 
 .chapter-title h2 {
@@ -23,14 +40,6 @@ header.story-title {
   margin-top: -4.9em;
   position: relative;
   z-index: 1;
-}
-
-.chapter-title {
-  background-color: #B25900;
-  padding: .75em;
-  position: relative;
-  text-align: center;
-  z-index: 9;
 }
 
 .caption-panel div p.gallery-caption {
@@ -133,5 +142,38 @@ header.story-title {
   height: auto;
   margin-bottom: 1.6em;
 }
+
+nav.main-menu {
+  background-color: #353526;
+  height: 1.25em;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+nav.main-menu ul {
+  margin:  -.25em 0 0 0;
+}
+
+nav.main-menu li {
+  border-right: thin solid #e4e0c7;
+  display: inline;
+  font-size: 0.75em;
+  font-weight: 400;
+  letter-spacing: .15em;
+  padding: 0 2em;
+  text-transform: uppercase;
+}
+
+nav.main-menu li.last-menu-item {
+  border-right: none;
+}
+
+nav.main-menu li.selected a {
+  color: #B25900;
+}
+
 
 /*# sourceMappingURL=scroll-story.css.map */
