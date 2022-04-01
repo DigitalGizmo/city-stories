@@ -275,17 +275,19 @@ p.caption {
 
 /* these styles might be relevant only to the city story - should they get moved? */
 .sidebar-parent {
-  width: 100vw;
-  overflow: visible;
-  position: absolute;
-  left: 0;
+  width: 350px;
+  height: 400px;
+  position: relative;
 }
 
 .sidebar {
   background-color: #558000;
   border-radius: 0 0 3px 3px;
   position: absolute;
-  bottom: 2em;
+  top: 318px;
+  left: 330px;
+  width: 318px;
+  text-align: center;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
@@ -293,7 +295,14 @@ p.caption {
 .sidebar a {
   color: #e4e0c7;
   font-size: 1em;
-  padding: 1.6em;
+}
+
+.sidebar-parent article {
+  background-color: #E6E7D8;
+  color: #353526;
+  font-size: .75em;
+  padding: 1em 3em 1em 1em;
+  margin: 0;
 }
 
 div.full-image {
