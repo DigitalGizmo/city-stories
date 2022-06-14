@@ -332,6 +332,20 @@ div.full-image p {
   z-index: 8;
 }
 
+h5.scroll-prompt {
+  background: url(http://dev.picturingurbanrenewal.org/prod-assets/common/scroll-arrow.png) no-repeat;
+  background-size: 60px;
+  background-position: bottom;
+  color: #e38d28;
+  font-weight: bold;
+  height: 70px;
+  left: 46%;
+  position: absolute;
+  text-shadow: 1px 1px 1px black;
+  top: 65%;
+  z-index: 99;
+}
+
 .caption-panel {
   position: relative;
   z-index: 10;
