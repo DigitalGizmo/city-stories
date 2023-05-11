@@ -8,6 +8,11 @@ header.story-title {
   z-index: 10;
 }
 
+header.basic-page nav p img {
+  margin-right: 0.5em;
+  width: 8%;
+}
+
 .story-title h1 {
   font-size: 2.5em;
   margin: 0;
