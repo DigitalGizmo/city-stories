@@ -41,8 +41,14 @@ header.basic-page nav p {
 
 .chapter-title h2 {
   letter-spacing: .075em;
+  margin-top: 0;
   text-shadow: 1px 1px #353526;
   text-transform: uppercase;
+}
+
+.chapter-title h5 {
+  margin: 0;
+  color: #353526;
 }
 
 .top-image {
